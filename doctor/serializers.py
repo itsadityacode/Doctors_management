@@ -48,7 +48,6 @@ class ResearchPublicationSerializer(serializers.ModelSerializer):
         fields = '__all__'
 
 
-
 class DoctorListCreate(generics.ListCreateAPIView):
     queryset = Doctor.objects.all()
     serializer_class = DoctorSerializer
